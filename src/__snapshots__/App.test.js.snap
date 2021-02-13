@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests renders without crashing 1`] = `
+"<App>
+  <div className=\\"container\\">
+    <h1 className=\\"gameTitle\\">
+       TIC TAC TOE 
+    </h1>
+    <PlayerStatus player={{...}} setPlayer={[Function: setPlayer]} winner={{...}}>
+      <div>
+        <ChoosePlayer player={[Function: player]}>
+          <form onSubmit={[Function: onSubmit]}>
+            <label className=\\"playerX\\">
+              <div className=\\"inputDisplay\\">
+                <div className=\\"playerText\\">
+                  Player X
+                </div>
+                <input className=\\"inputX\\" type=\\"radio\\" name=\\"player\\" value=\\"X\\" onChange={[Function: onChange]} />
+              </div>
+            </label>
+            <label className=\\"playerO\\">
+              <div className=\\"inputDisplay\\">
+                <div className=\\"playerText\\">
+                  Player O
+                </div>
+                <input className=\\"inputO\\" type=\\"radio\\" name=\\"player\\" value=\\"O\\" onChange={[Function: onChange]} />
+              </div>
+            </label>
+            <button className=\\"startButton\\" type=\\"submit\\" disabled={true}>
+               Start
+            </button>
+          </form>
+        </ChoosePlayer>
+      </div>
+    </PlayerStatus>
+    <div className=\\"boardDisplay\\">
+      <div className=\\"gameBoard\\">
+        <div className=\\"box\\" onClick={[Function: onClick]} />
+        <div className=\\"box\\" onClick={[Function: onClick]} />
+        <div className=\\"box\\" onClick={[Function: onClick]} />
+        <div className=\\"box\\" onClick={[Function: onClick]} />
+        <div className=\\"box\\" onClick={[Function: onClick]} />
+        <div className=\\"box\\" onClick={[Function: onClick]} />
+        <div className=\\"box\\" onClick={[Function: onClick]} />
+        <div className=\\"box\\" onClick={[Function: onClick]} />
+        <div className=\\"box\\" onClick={[Function: onClick]} />
+      </div>
+      <button className=\\"playAgain\\" disabled={true} onClick={[Function: onClick]}>
+         Play Again 
+      </button>
+    </div>
+  </div>
+</App>"
+`;
