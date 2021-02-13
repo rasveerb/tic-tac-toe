@@ -1,0 +1,14 @@
+h2{
+    color: #ff66b3;
+    padding-right: 10%;
+  }
+  
+  .winnerDiv{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .winner{
+    padding-right: 10%;
+  }
+  

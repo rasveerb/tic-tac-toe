@@ -1,0 +1,69 @@
+.container{
+    text-align: center;
+    background-color: #dec0f1;
+    width: 100%;
+    height: 100%;
+    padding: 5% 0 50% 0;
+  }
+  
+  .gameTitle{
+    color: #a713f6;
+    font-size: 40px;
+    margin: 0;
+    padding-right: 10%;
+  }
+  
+  .playerTitle{
+    color: #a713f6;
+    font-size: 40px;
+    margin: 0;
+    padding-right: 8%;
+  }
+  
+  .box{
+    width: 80px;
+    height: 80px;
+    border: 4px solid #a713f6;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 80px;
+    color: #a713f6;
+  }
+  
+  .boardDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gameBoard{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 320px;
+    color: #a713f6;
+    padding-right: 10%;
+  }
+  
+  .winnerBoard{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 320px;
+    color: #a713f6;
+    padding-right: 0%;
+  }
+  
+  .playAgain{
+    color: #dc0073;
+    font-weight: 700;
+    border-radius: 12px;
+    border: 2px solid #a713f6;
+    height: 100px;
+    width: 100px;
+    background-color: #edabce;
+  }
+  
+  .playAgain:disabled{
+    display: none;
+  }
