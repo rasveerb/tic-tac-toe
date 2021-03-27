@@ -5,8 +5,14 @@ import {shallow, mount} from 'enzyme'
 
 describe('App tests', () => {
 
+  let wrapper;
+
+  beforeEach(() => {
+    wrapper = shallow(<App/>)
+  })
+
     it('renders without crashing', () => {
-      const wrapper = mount(<App />);
+       wrapper = mount(<App />);
 
       expect(wrapper.debug()).toMatchSnapshot();
     });
@@ -25,4 +31,9 @@ describe('App tests', () => {
 // const winner = wrapper.find('div.winnerBoard').text()
 // expect(winner).toEqual('X')
 //   });
+
+    it('renders a button', () => {
+      const button = wrapper.find('button');
+        expect(button.length).toBe(1);
+    })
 });

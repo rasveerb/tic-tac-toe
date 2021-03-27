@@ -35,7 +35,12 @@ module.exports = {
     moduleNameMapper: {
       "\\.(s?css|less)$": "identity-obj-proxy"
     },
+
+    //removes the trace object cluttering the terminal - Disables stack trace in test results output.
+    noStackTrace: true,
     
     // Indicates whether each individual test should be reported during the run
     verbose: false,
   };
+
+  //NB add options from here https://deltice.github.io/jest/docs/en/cli.html#nostacktrace into this doc when wanting to use them - did this for noStackTrace one 
